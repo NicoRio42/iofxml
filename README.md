@@ -1,10 +1,10 @@
-# IOF XML CLI toolbox
+# IOF XML CLI Toolbox
 
-A Command Line toolbox to work with IOF XML files.
+A command-line toolbox for working with IOF XML files.
 
 ## Installation
 
-Download the [Deno](https://deno.com/) Javascript runtime:
+Download the [Deno](https://deno.com/) JavaScript runtime:
 
 ```sh
 # On macOS or Linux
@@ -26,7 +26,7 @@ deno install -g -RWNE jsr:@orienteering-js/iofxml
 
 Interactively downloads IOF XML split times from [Winsplits](https://obasen.orientering.se/winsplits/online).
 
-You can pass an optionnal `--date` argument, default to today. Exemple:
+You can pass an optional `--date` argument, which defaults to today. Example:
 
 ```sh
 iofxml winsplits --date 2025-08-31
@@ -34,7 +34,7 @@ iofxml winsplits --date 2025-08-31
 
 ### `merge`
 
-Merges several IOF XML split times files into one. Exemple:
+Merges several IOF XML split times files into one. Example:
 
 ```sh
 iofxml merge ./file-1.xml ./file-2.xml ./merged.xml
