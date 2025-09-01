@@ -18,8 +18,8 @@ function showHelp() {
 Usage: iofxml <command> [options]
 
 Commands:
-  winsplits [--date <date>]    Process winsplits with optional date
-  merge <input1> [input2...] <output>    Merge multiple input files into output file
+  winsplits [--date <date>]    Interactively Download split times from winsplits
+  merge <input1> [input2...] <output>    Merge multiple split times files into one
 
 Options:
   --help, -h                   Show this help message
@@ -28,7 +28,6 @@ Options:
 Examples:
   iofxml winsplits --date "2025-09-01"
   iofxml merge file1.xml file2.xml output.xml
-  iofxml merge input/*.xml result.xml
 `);
 }
 
